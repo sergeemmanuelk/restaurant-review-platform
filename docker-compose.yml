@@ -33,7 +33,7 @@ services:
       - elastic
 
   keycloak:
-    image: quay.io/keycloak/keycloak:23.0
+    image: quay.io/keycloak/keycloak:latest
     ports:
       - "9090:8080"
     environment:
